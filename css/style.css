@@ -91,3 +91,10 @@ margin-left: 10px;
   background-color: red;
   float: left;
 }
+.container0{
+  border:solid;
+  height:600px;
+  background-image:url("https://images.pexels.com/photos/34174/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
