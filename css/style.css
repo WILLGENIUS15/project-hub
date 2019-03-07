@@ -34,19 +34,25 @@ width: auto;
 }
 
 /* Style the counter cards */
+<<<<<<< HEAD
 /* .card {
+=======
+.card-deck{
+>>>>>>> 81c0ce678c56ea89c7b0873df575d9af9e73e7a0
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
-  width: 300px;
-  height: 450px;
   margin-bottom: 10px;
   margin: 10px;
   }
+<<<<<<< HEAD
   .card-body{
     color: black;
   } */
+=======
+
+>>>>>>> 81c0ce678c56ea89c7b0873df575d9af9e73e7a0
 
 
 .mk1{
@@ -62,39 +68,34 @@ margin-left: 10px;
   float: right;
 }
 
-.button {
-  padding: 14px 20px;
-  font-size: 12px;
-  text-align: center;
+
+.btn {
+  border: 9px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 20px;
   cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-  float: right;
 }
 
-.button:hover {background-color: #3e8e41}
-
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+.default {
+  border-color: #e7e7e7;
+  color: black;
 }
 
-.boder{
-  border: 1px;
-  width: 1300px;
-  height: 100px;
-  background-color: red;
-  float: left;
+.default:hover {
+  background: #e7e7e7;
 }
 .container0 {
   border:solid;
-  height:600px;
-  background-image:url("https://images.pexels.com/photos/34174/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height:420px;
+  background-image:url("https://images.pexels.com/photos/34174/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
   background-repeat: no-repeat;
   background-size: cover;
+}
+h1 {
+  text-align: center;
+  color: blue;
+  font-size: 420%;
 }
