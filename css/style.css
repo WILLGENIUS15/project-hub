@@ -34,7 +34,7 @@ width: auto;
 }
 
 /* Style the counter cards */
-<<<<<<< HEAD
+HEAD
 /* .card {
 =======
 .card-deck{
@@ -50,9 +50,8 @@ width: auto;
   .card-body{
     color: black;
   } */
-=======
 
->>>>>>> 81c0ce678c56ea89c7b0873df575d9af9e73e7a0
+81c0ce678c56ea89c7b0873df575d9af9e73e7a0
 
 
 .mk1{
@@ -94,8 +93,5 @@ margin-left: 10px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-h1 {
-  text-align: center;
-  color: blue;
-  font-size: 69px;
-}
+
+h1 {}
