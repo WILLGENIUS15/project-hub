@@ -1,97 +1,305 @@
-.navbar-inverse{
-  background-image:url("https://images.pexels.com/photos/1709038/pexels-photo-1709038.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
-  background-size: cover;
-  background-repeat: no-repeat;
-width: auto;
-}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link  href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
 
-{
-  background-color:green;
-}
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
+  <body>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Project Hub</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#team">Team</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-/* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+  <div class="container">
+    <div id="#animate"> Welcome to Project Bae </div>
+  </div>
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+  <div class="container1">
+    <div id="#projects"> Projects </div>
+    <!-- Card deck -->
+<div class="card-deck">
 
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
+<!-- Card -->
+<div class="card mb-4">
 
-/* Style the counter cards */
-HEAD
-/* .card {
-=======
-.card-deck{
->>>>>>> 81c0ce678c56ea89c7b0873df575d9af9e73e7a0
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-  margin-bottom: 10px;
-  margin: 10px;
-  }
-<<<<<<< HEAD
-  .card-body{
-    color: black;
-  } */
+<!--Card image-->
+<div class="view overlay">
+  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+  <a href="#!">
+    <div class="mask rgba-white-slight"></div>
+  </a>
+</div>
 
-81c0ce678c56ea89c7b0873df575d9af9e73e7a0
+<!--Card content-->
+<div class="card-body">
+
+  <!--Title-->
+  <h4 class="card-title">Gallery Website</h4>
+  <hr>
+  <h4 class="card-title"> By Lumumba</h4>
+  <!--Text-->
+  <p class="card-text">This is a personal gallery application that displays photos from different categories and locations for others to see.This application was created on 29th September 2018.</p>
+  <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+  <button class="btn default"><a href="https://github.com/Gift-Lumumba/Gallery ">Code</a></button>
+  <button class="btn default"><a href="https://imgsplash.herokuapp.com/ ">Demo</a></button>
+
+</div>
+
+</div>
+<!-- Card -->
+
+<!-- Card -->
+<div class="card mb-4">
+
+<!--Card image-->
+<div class="view overlay">
+  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
+  <a href="#!">
+    <div class="mask rgba-white-slight"></div>
+  </a>
+</div>
+
+<!--Card content-->
+<div class="card-body">
+
+  <!--Title-->
+  <h4 class="card-title">News-Highlight</h4>
+  <hr>
+  <!--Text-->
+  <h4 class="card-title">By Lumumba</h4>
+  <p class="card-text">This is an application that helps users list and preview different news articles from different categories from various sources around the world.
+This project was generated on 2nd September 2018 using python3.6.</p>
+  <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+  <button class="btn default"><a href="https://github.com/Gift-Lumumba/News-Highlight ">Code</a></button>
+  <button class="btn default"><a href="https://maendeleosasa.herokuapp.com/ ">Demo</a></button>
 
 
-.mk1{
-float: left;
-margin-left: 10px;
-}
-.mk2{
-  float: left;
-  margin-right: 10px;
+</div>
 
-}
-.mk3{
-  float: right;
-}
+</div>
+<!-- Card -->
+
+<!-- Card -->
+<div class="card mb-4">
+
+<!--Card image-->
+<div class="view overlay">
+  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
+  <a href="#!">
+    <div class="mask rgba-white-slight"></div>
+  </a>
+</div>
+
+<!--Card content-->
+<div class="card-body">
+
+  <!--Title-->
+  <h4 class="card-title">freeCodeCamp</h4>
+  <hr>
+  <!--Text-->
+  <h4 class="card-title">By Lumumba</h4>
+  <p class="card-text">freeCodeCamp.org is a friendly community where you can learn to code for free. It is run by a donor-supported 501(c)(3) nonprofit with the goal of helping millions of busy adults transition into tech. </p>
+  <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+  <button class="btn default"><a href="https://github.com/freeCodeCamp/freeCodeCamp">Code</a></button>
+  <button class="btn default"><a href="https://www.freeCodeCamp.org ">Demo</a></button>
 
 
-.btn {
-  border: 9px solid black;
-  border-radius: 5px;
-  background-color: white;
-  color: black;
-  padding: 14px 28px;
-  font-size: 20px;
-  cursor: pointer;
-}
+</div>
 
-.default {
-  border-color: #e7e7e7;
-  color: black;
-}
+</div>
+<!-- Card -->
 
-.default:hover {
-  background: #e7e7e7;
-}
-.container0 {
-  border:solid;
-  height:420px;
-  background-image:url("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj8jJ2BsfDgAhXj1-AKHYU0CZEQjRx6BAgBEAU&url=http%3A%2F%2Fwww.baltana.com%2Ftag%2Fcomputer-technology.html&psig=AOvVaw308LckR3TRgvTZQKPQq56k&ust=1552060217179197";
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+</div>
+<!-- Card deck -->
 
-h1 {}
+<!-- Card deck -->
+<div class="card-deck">
+
+<!-- Card -->
+<div class="card mb-4">
+
+  <!--Card image-->
+  <div class="view overlay">
+    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+    <a href="#!">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body">
+
+    <!--Title-->
+    <h4 class="card-title">Eugen Rochko</h4>
+    <hr>
+    <!--Text-->
+    <h4 class="card-title">By tootsuite</h4>
+    <p class="card-text">Mastodon is a free, open-source social network server based on ActivityPub. Follow friends and discover new ones. Publish anything you want: links, pictures, text, video. </p>
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <button class="btn default"><a href="">Code</a></button>
+    <button class="btn default"><a href="">Demo</a></button>
+
+
+  </div>
+
+</div>
+<!-- Card -->
+
+<!-- Card -->
+<div class="card mb-4">
+
+  <!--Card image-->
+  <div class="view overlay">
+    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
+    <a href="#!">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body">
+
+    <!--Title-->
+    <h4 class="card-title">discourse</h4>
+    <hr>
+    <!--Text-->
+    <h4 class="card-title">By Discourse</h4>
+    <p class="card-text">Discourse is the 100% open source discussion platform built for the next decade of the Internet. Use it as a:
+
+mailing list
+discussion forum
+long-form chat room
+To learn more about the philosophy and goals of the project.</p>
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <button class="btn default"><a href="https://github.com/discourse/discourse ">Code</a></button>
+    <button class="btn default"><a href="https://www.discourse.org">Demo</a></button>
+
+
+  </div>
+
+</div>
+<!-- Card -->
+
+<!-- Card -->
+<div class="card mb-4">
+
+  <!--Card image-->
+  <div class="view overlay">
+    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
+    <a href="#!">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body">
+
+    <!--Title-->
+    <h4 class="card-title">pig-dice</h4>
+    <hr>
+    <!--Text-->
+    <h4 class="card-title">By IanBTrey </h4>
+    <p class="card-text">Basically this project is somewhat of a game that pitts two players against each other.Players take turns rolling a six-side dice with the option of holding just as a precaution.Every roll of a dice outputs a random number that acts as a roundscore except when rolling a 1,you get a zero score and the turn goes to your opponent.The first player to hit or surpass the hundred score wins.</p>
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <button class="btn default"><a href="https://github.com/IanBTrey/pig-dice  ">Code</a></button>
+    <button class="btn default"><a href="https://ianbtrey.github.io/pig-dice/ ">Demo</a></button>
+
+
+  </div>
+
+</div>
+<!-- Card -->
+
+</div>
+<!-- Card deck -->
+</div>
+<div class="container">
+
+       <div id="#about"> About </div>
+       <hr>
+
+       <hr>
+ </div>
+
+
+<div class="container">
+  <div id="#team">Team </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-4">
+
+        <figure>
+          <img src="https://leadergamer.com.tr/wp-content/themes/lgm/images/default_user.jpg">
+          <div class="contact">
+            <a href="" class="tw"></a>
+            <a href="" class="fb"></a>
+            <a href="" class="gp"></a>
+            <a href="" class="ma"></a>
+          </div>
+        </figure>
+      </div>
+
+
+
+<div class="col-md-4">
+
+    <figure>
+      <img src="https://leadergamer.com.tr/wp-content/themes/lgm/images/default_user.jpg">
+      <div class="contact">
+        <a href="" class="tw"></a>
+        <a href="" class="fb"></a>
+        <a href="" class="gp"></a>
+        <a href="" class="ma"></a>
+      </div>
+    </figure>
+ </div>
+
+ <div class="col-md-4">
+    <figure>
+      <img src="https://leadergamer.com.tr/wp-content/themes/lgm/images/default_user.jpg">
+      <div class="contact">
+        <a href="" class="tw"></a>
+        <a href="" class="fb"></a>
+        <a href="" class="gp"></a>
+        <a href="" class="ma"></a>
+      </div>
+    </figure>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+            <script
+          src="https://code.jquery.com/jquery-3.3.1.js"
+          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+          crossorigin="anonymous"></script>
+         <script src="js/script.js"></script>
+         <script src="js/jquery.js"></script>
+    </body>
+</html>
