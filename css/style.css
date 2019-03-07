@@ -2,7 +2,7 @@
   background-image:url("https://images.pexels.com/photos/1709038/pexels-photo-1709038.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
   background-size: cover;
   background-repeat: no-repeat;
-
+width: auto;
 }
 
 {
@@ -60,4 +60,34 @@ margin-left: 10px;
 }
 .mk3{
   float: right;
+}
+
+.button {
+  padding: 14px 20px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  float: right;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.boder{
+  border: 1px;
+  width: 1300px;
+  height: 100px;
+  background-color: red;
+  float: left;
 }
