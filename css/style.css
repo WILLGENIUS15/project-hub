@@ -34,7 +34,7 @@ width: auto;
 }
 
 /* Style the counter cards */
-.card {
+/* .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
@@ -46,7 +46,7 @@ width: auto;
   }
   .card-body{
     color: black;
-  }
+  } */
 
 
 .mk1{
@@ -54,7 +54,7 @@ float: left;
 margin-left: 10px;
 }
 .mk2{
-  float: right;
+  float: left;
   margin-right: 10px;
 
 }
@@ -91,6 +91,15 @@ margin-left: 10px;
   background-color: red;
   float: left;
 }
+<<<<<<< HEAD
 .container0 {
   
+=======
+.container0{
+  border:solid;
+  height:600px;
+  background-image:url("https://images.pexels.com/photos/34174/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+>>>>>>> 801198c787878a52a49325d7025c8b121fe22ff8
 }
