@@ -119,6 +119,7 @@ figure .contact a {
   }
     figure .contact .tw:hover {
       background-color: rgba(0, 172, 238, 1);
+      
     }
   figure .contact .fb {
     top: 0; right: 0;
